@@ -1,0 +1,43 @@
+<html>
+<head>
+<style type="text/css">
+body {
+  overflow: hidden;
+  background: #A1DBB2;
+}
+
+div, canvas {
+  position: absolute;
+}
+
+#text {
+  z-index: 200;
+  display: none;
+}
+
+input {
+  z-index: 400;
+  position: absolute;
+  text-transform: uppercase;
+  width: 90%;
+  bottom: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  left: 5%;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+<script type="text/javascript" src="Flying_Text.js"></script>
+</head>
+	<body>
+		<div id="stage"></div>
+		<canvas id="text" width="700" height="200"></canvas>
+		<input id="input" type="text" value="EDIT ME"/>
+	</body>
+</html>

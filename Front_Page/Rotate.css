@@ -1,0 +1,22 @@
+body { 
+  background-color: #ef8692; 
+  padding: 0; 
+  margin: 0; 
+  overflow: hidden;
+}
+
+.header img {
+  float: left;
+  width: 180px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+#world {
+	background-color:#ef8692 !important;
+}
